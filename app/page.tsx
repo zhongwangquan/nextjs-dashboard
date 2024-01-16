@@ -22,7 +22,7 @@ export default function Page() {
           >
             <strong>Welcome to Acme.</strong> This is the example for the{' '}
             <a href="https://nextjs.org/learn/" className="text-blue-500">
-              解锁神隐同款写真
+              解锁神隐同款写真1
             </a>
             , brought to you by Vercel.
           </p>
