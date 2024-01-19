@@ -6,6 +6,7 @@ export const authConfig = {
   },
   callbacks: {
     authorized({ auth, request: { nextUrl } }) {
+      console.log('AUTH_SECRET2', process.env.AUTH_SECRET);
       console.log('auth', auth, 'request nextUrl', nextUrl);
       const isLoggedIn = !!auth?.user;
       const isOnDashboard = nextUrl.pathname.startsWith('/dashboard');
